@@ -18,7 +18,7 @@ body{
 .formInput{
     position: absolute;
     top: -100%;
-    width: 40%;
+    width: 70%;
     left: 50%;
     transform: translateX(-50%);
     background-color: #EA4C89;
@@ -272,6 +272,7 @@ body{
     transform: translateX(-400px);
     z-index: 2;
     animation: car 4s 1s forwards, car1 2s 5s forwards;
+    margin-left: -10%;
 }
 .boxCar img{
     width: 350px;
@@ -636,7 +637,6 @@ body{
 }
 .giftbox .img{
     position: absolute;
-    width: 180px;
     bottom: -10px;
     left: 50px;
     z-index: 100;
